@@ -539,6 +539,13 @@ body {
   color: #58A9A5;
   font-style: italic;
 }
+@media (max-width: 920px) {
+  .wrapper .page .page-5 .page-5__testimonial .testimonial__container .testimonial__statistics .statistics__content .content__statistic {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media (max-width: 620px) {
   .wrapper .page .page-5 .page-5__testimonial .testimonial__container .testimonial__statistics .statistic__img {
     width: 100%;
@@ -653,7 +660,7 @@ body {
   color: #404242;
   font-size: 25px;
   line-height: 152%;
-  margin: 0 5px;
+  margin: 0 10px;
   position: relative;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -685,6 +692,11 @@ body {
   border-radius: 21px;
   opacity: 1;
   width: 48px;
+}
+@media (max-width: 767px) {
+  .menu .menu__list .menu__item {
+    font-size: 0px;
+  }
 }
 .menu .menu__list .menu__item:not(:last-child) {
   margin-right: 85px;
